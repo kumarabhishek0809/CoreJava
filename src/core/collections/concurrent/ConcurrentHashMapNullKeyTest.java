@@ -11,6 +11,7 @@ public class ConcurrentHashMapNullKeyTest {
 		concurrentHashMapTest.testConcurrentHashMapNull();
 	}
 	private void testConcurrentHashMapNull() {
+		nullTestConcurrentHashMap.containsKey(null);
 		nullTestConcurrentHashMap.put(null,"WhyNot");
 		
 	}
