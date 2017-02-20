@@ -1,6 +1,4 @@
-package core;
-
-import domain.Person;
+package core.domain;
 
 public class InnerVariablesInMethod {
 
