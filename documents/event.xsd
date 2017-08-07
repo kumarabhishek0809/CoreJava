@@ -1,0 +1,74 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="event">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="headers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="businessKey"/>
+              <xs:element type="xs:string" name="employeeLoginId"/>
+              <xs:element type="xs:short" name="employeeNumber"/>
+              <xs:element type="xs:dateTime" name="eventCreatedDate"/>
+              <xs:element type="xs:long" name="eventCreatedTimeInNanos"/>
+              <xs:element type="xs:string" name="eventId"/>
+              <xs:element type="xs:string" name="eventType"/>
+              <xs:element type="xs:byte" name="rootIdentifier"/>
+              <xs:element name="sourceChannel">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="id"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:byte" name="systemInfoUserId"/>
+              <xs:element type="xs:float" name="version"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="establishmentApplicationStatusEvent">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="applicationActionReason">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="applicationActionReasons" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:short" name="applicationNo"/>
+                    <xs:element type="xs:string" name="comments"/>
+                    <xs:element name="estabApplicationAction">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:long" name="correlationId"/>
+                          <xs:element name="estabApplicationActionDocuments" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="documentId">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:short" name="id"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="documentReasonId"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:byte" name="status"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

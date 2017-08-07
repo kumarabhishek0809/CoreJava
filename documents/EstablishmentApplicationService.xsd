@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.6 in JDK 6.--><xs:schema version="1.0" targetNamespace="http://service.api.service.establishment.v2015.emaratech.com/1.0" xmlns:tns="http://service.api.service.establishment.v2015.emaratech.com/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ServiceFault" nillable="true" type="tns:ApplicationFaultInfo"/>
+  <xs:element name="cancelEstablishmentApplication" type="tns:cancelEstablishmentApplication"/>
+  <xs:element name="cancelEstablishmentApplicationResponse" type="tns:cancelEstablishmentApplicationResponse"/>
+  <xs:element name="increaseQuotaApplication" type="tns:increaseQuotaApplication"/>
+  <xs:element name="increaseQuotaApplicationResponse" type="tns:increaseQuotaApplicationResponse"/>
+  <xs:element name="newQuotaApplication" type="tns:newQuotaApplication"/>
+  <xs:element name="newQuotaApplicationResponse" type="tns:newQuotaApplicationResponse"/>
+  <xs:element name="quotaWarrantyPaymentApplication" type="tns:quotaWarrantyPaymentApplication"/>
+  <xs:element name="quotaWarrantyPaymentApplicationResponse" type="tns:quotaWarrantyPaymentApplicationResponse"/>
+  <xs:element name="reduceQuotaApplication" type="tns:reduceQuotaApplication"/>
+  <xs:element name="reduceQuotaApplicationResponse" type="tns:reduceQuotaApplicationResponse"/>
+  <xs:element name="registerEstablishmentApplication" type="tns:registerEstablishmentApplication"/>
+  <xs:element name="registerEstablishmentApplicationResponse" type="tns:registerEstablishmentApplicationResponse"/>
+  <xs:element name="renewEstablishment" type="tns:renewEstablishment"/>
+  <xs:element name="renewEstablishmentApplication" type="tns:renewEstablishmentApplication"/>
+  <xs:element name="renewEstablishmentApplicationResponse" type="tns:renewEstablishmentApplicationResponse"/>
+  <xs:element name="renewEstablishmentResponse" type="tns:renewEstablishmentResponse"/>
+  <xs:element name="replaceLostDamageEstablishmentCardApplication" type="tns:replaceLostDamageEstablishmentCardApplication"/>
+  <xs:element name="replaceLostDamageEstablishmentCardApplicationResponse" type="tns:replaceLostDamageEstablishmentCardApplicationResponse"/>
+  <xs:element name="updateApplicationDocuments" type="tns:updateApplicationDocuments"/>
+  <xs:element name="updateApplicationDocumentsResponse" type="tns:updateApplicationDocumentsResponse"/>
+  <xs:element name="updateEstablishmentApplication" type="tns:updateEstablishmentApplication"/>
+  <xs:element name="updateEstablishmentApplicationResponse" type="tns:updateEstablishmentApplicationResponse"/>
+  <xs:complexType name="updateApplicationDocuments">
+    <xs:sequence>
+      <xs:element name="updateApplicationDocumentRequest" type="tns:updateApplicationDocumentRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateApplicationDocumentRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence>
+          <xs:element name="applicationDocuments" type="tns:applicationDocuments"/>
+          <xs:element name="correlationID" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="applicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="requestBase" abstract="true">
+    <xs:sequence>
+      <xs:element name="operatedBy" type="xs:long"/>
+      <xs:element name="operationDate" type="xs:dateTime"/>
+      <xs:element name="source" type="tns:channel"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="applicationDocuments">
+    <xs:sequence>
+      <xs:element name="applicationDocument" type="tns:ApplicationDocument" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ApplicationDocument">
+    <xs:sequence>
+      <xs:element name="docFileName" type="xs:string"/>
+      <xs:element name="documentType" type="tns:LookupDocument"/>
+      <xs:element name="document" type="xs:base64Binary"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LookupDocument">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="channel">
+    <xs:complexContent>
+      <xs:extension base="tns:lookup">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="lookup" abstract="true">
+    <xs:complexContent>
+      <xs:extension base="tns:domain">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="domain" abstract="true">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="updateApplicationDocumentsResponse">
+    <xs:sequence>
+      <xs:element name="establishmentApplicationResponse" type="tns:establishmentApplicationResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="establishmentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationID" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ApplicationFaultInfo">
+    <xs:sequence>
+      <xs:element name="errorDetails" type="tns:errorDetail" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="errorDetail">
+    <xs:sequence>
+      <xs:element name="errorCode" type="xs:string" minOccurs="0"/>
+      <xs:element name="errorLevel" type="xs:string" minOccurs="0"/>
+      <xs:element name="messageAr" type="xs:string" minOccurs="0"/>
+      <xs:element name="messageEn" type="xs:string" minOccurs="0"/>
+      <xs:element name="overridable" type="xs:boolean" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="replaceLostDamageEstablishmentCardApplication">
+    <xs:sequence>
+      <xs:element name="replaceLostDamageEstabCardAppRequest" type="tns:replaceLostDamageEstabCardAppRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="replaceLostDamageEstabCardAppRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:establishmentRequestBase">
+        <xs:sequence>
+          <xs:element name="CardNo" type="xs:string"/>
+          <xs:element name="Reason" type="tns:cardReprintReason"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="EstablishmentCode" type="xs:long" use="required"/>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="establishmentRequestBase">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence/>
+        <xs:attribute name="applicationPriority" type="xs:long"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="cardReprintReason">
+    <xs:complexContent>
+      <xs:extension base="tns:lookup">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="PaymentDetail">
+    <xs:sequence>
+      <xs:element name="Payment" type="tns:Payment" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="paymentReferenceNo" type="xs:string" use="required"/>
+    <xs:attribute name="paymentDate" type="xs:date" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="Payment">
+    <xs:sequence/>
+    <xs:attribute name="feeTypeId" type="xs:long" use="required"/>
+    <xs:attribute name="PayableAmount" type="xs:float" use="required"/>
+    <xs:attribute name="PaidAmount" type="xs:float" use="required"/>
+    <xs:attribute name="Units" type="xs:int" use="required"/>
+    <xs:attribute name="PaymentExemptionReasonId" type="xs:long"/>
+    <xs:attribute name="comment" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="replaceLostDamageEstablishmentCardApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelEstablishmentApplication">
+    <xs:sequence>
+      <xs:element name="cancelEstablishmentApplicationRequest" type="tns:cancelEstablishmentApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelEstablishmentApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:establishmentRequestBase">
+        <xs:sequence>
+          <xs:element name="EstablishmentCode" type="xs:long"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="cancelEstablishmentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateEstablishmentApplication">
+    <xs:sequence>
+      <xs:element name="updateEstablishmentApplicationRequest" type="tns:updateEstablishmentApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateEstablishmentApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:establishmentRequestBase">
+        <xs:sequence>
+          <xs:element name="UpdateEstablishmentProfileDetail" type="tns:UpdateEstablishmentProfileDetail" minOccurs="0"/>
+          <xs:element name="UpdateEstablishmentLicenseDetail" type="tns:UpdateEstablishmentLicenseDetail" minOccurs="0"/>
+          <xs:element name="NewEstablishmentMemberDetail" type="tns:EstablishmentMemberDetail" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail" minOccurs="0"/>
+          <xs:element name="RemoveEstablishmentMembers" type="tns:RemoveMembers" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="RemoveQuotaVisaTypeId" type="xs:long" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="UpdateEstablishmentMemberDetails" type="tns:UpdateEstablishmentMemberDetail" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+        <xs:attribute name="establishmentCode" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="UpdateEstablishmentProfileDetail">
+    <xs:sequence>
+      <xs:element name="updateEstablishmentAddressDetail" type="tns:UpdateEstablishmentAddressDetail" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="nameEnglish" type="xs:string"/>
+    <xs:attribute name="nameArabic" type="xs:string"/>
+    <xs:attribute name="beneficiary" type="xs:boolean" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="UpdateEstablishmentAddressDetail">
+    <xs:sequence/>
+    <xs:attribute name="areaId" type="xs:long" use="required"/>
+    <xs:attribute name="cityId" type="xs:long" use="required"/>
+    <xs:attribute name="poBoxEmirateId" type="xs:long" use="required"/>
+    <xs:attribute name="poBoxNo" type="xs:string"/>
+    <xs:attribute name="flatNo" type="xs:string"/>
+    <xs:attribute name="faxNo" type="xs:string"/>
+    <xs:attribute name="street" type="xs:string"/>
+    <xs:attribute name="email" type="xs:string"/>
+    <xs:attribute name="mobileNo" type="xs:string"/>
+    <xs:attribute name="officeNo" type="xs:string"/>
+    <xs:attribute name="telephoneNo" type="xs:string"/>
+    <xs:attribute name="building" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="UpdateEstablishmentLicenseDetail">
+    <xs:sequence>
+      <xs:element name="licenseActivity" type="xs:long" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="licenseTypeId" type="xs:long" use="required"/>
+    <xs:attribute name="licenseAuthorityId" type="xs:long"/>
+    <xs:attribute name="licenseNumber" type="xs:string" use="required"/>
+    <xs:attribute name="licenseIssueDate" type="xs:date"/>
+    <xs:attribute name="licenseExpiryDate" type="xs:date"/>
+  </xs:complexType>
+  <xs:complexType name="EstablishmentMemberDetail">
+    <xs:sequence/>
+    <xs:attribute name="memberTypeId" type="xs:long" use="required"/>
+    <xs:attribute name="UDB" type="xs:long"/>
+    <xs:attribute name="establishmentCode" type="xs:long"/>
+    <xs:attribute name="signatory" type="xs:boolean"/>
+  </xs:complexType>
+  <xs:complexType name="RemoveMembers">
+    <xs:sequence/>
+    <xs:attribute name="UDB" type="xs:long"/>
+    <xs:attribute name="establishmentCode" type="xs:long"/>
+  </xs:complexType>
+  <xs:complexType name="UpdateEstablishmentMemberDetail">
+    <xs:sequence/>
+    <xs:attribute name="UDB" type="xs:long" use="required"/>
+    <xs:attribute name="signatory" type="xs:boolean" use="required"/>
+    <xs:attribute name="UaeId" type="xs:long"/>
+    <xs:attribute name="memberTypeId" type="xs:long" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="updateEstablishmentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishmentApplication">
+    <xs:sequence>
+      <xs:element name="renewEstablishmentApplicationRequest" type="tns:renewEstablishmentApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishmentApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:establishmentRequestBase">
+        <xs:sequence>
+          <xs:element name="RenewEstablishmentProfileDetail" type="tns:RenewEstablishmentProfileDetail"/>
+          <xs:element name="UpdateEstablishmentLicenseDetail" type="tns:UpdateEstablishmentLicenseDetail"/>
+          <xs:element name="NewEstablishmentMemberDetail" type="tns:EstablishmentMemberDetail" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="UpdateEstablishmentMemberDetail" type="tns:UpdateEstablishmentMemberDetail" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="RemoveEstablishmentMember" type="tns:RemoveMembers" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="establishmentCode" type="xs:long" use="required"/>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+        <xs:attribute name="isAutoApproval" type="xs:boolean"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RenewEstablishmentProfileDetail">
+    <xs:sequence>
+      <xs:element name="updateEstablishmentAddressDetail" type="tns:UpdateEstablishmentAddressDetail" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="nameEnglish" type="xs:string"/>
+    <xs:attribute name="nameArabic" type="xs:string"/>
+    <xs:attribute name="registrationExpiryYears" type="xs:long" use="required"/>
+    <xs:attribute name="beneficiary" type="xs:boolean" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishmentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="newQuotaApplication">
+    <xs:sequence>
+      <xs:element name="newQuotaApplicationRequest" type="tns:newQuotaApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="newQuotaApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence>
+          <xs:element name="QuotaDetails" type="tns:QuotaDetail" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="EstablishmentCode" type="xs:long" use="required"/>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotaDetail">
+    <xs:sequence/>
+    <xs:attribute name="VisaType" type="xs:long" use="required"/>
+    <xs:attribute name="NoOfVisa" type="xs:long" use="required"/>
+    <xs:attribute name="QuotaExpiryDate" type="xs:anySimpleType"/>
+  </xs:complexType>
+  <xs:complexType name="newQuotaApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishment">
+    <xs:sequence>
+      <xs:element name="renewEstablishmentApplicationWithDocsRequest" type="tns:renewEstablishmentApplicationWithDocsRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishmentApplicationWithDocsRequest">
+    <xs:sequence>
+      <xs:element name="applicationDocuments" type="tns:applicationDocuments" minOccurs="0"/>
+      <xs:element name="renewEstablishmentApplicationRequest" type="tns:renewEstablishmentApplicationRequest"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renewEstablishmentResponse">
+    <xs:sequence>
+      <xs:element name="establishmentApplicationResponse" type="tns:establishmentApplicationResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="increaseQuotaApplication">
+    <xs:sequence>
+      <xs:element name="increaseQuotaApplicationRequest" type="tns:increaseQuotaApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="increaseQuotaApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence>
+          <xs:element name="IncreaseQuotaDetails" type="tns:increaseQuotaDetail" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="EstablishmentCode" type="xs:long" use="required"/>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="increaseQuotaDetail">
+    <xs:sequence/>
+    <xs:attribute name="VisaType" type="xs:long" use="required"/>
+    <xs:attribute name="NoOfVisa" type="xs:long" use="required"/>
+    <xs:attribute name="Reason" type="xs:long" use="required"/>
+    <xs:attribute name="QuotaExpiryDate" type="xs:anySimpleType"/>
+  </xs:complexType>
+  <xs:complexType name="increaseQuotaApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="registerEstablishmentApplication">
+    <xs:sequence>
+      <xs:element name="registerEstablishmentApplicationRequest" type="tns:registerEstablishmentApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="registerEstablishmentApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:establishmentRequestBase">
+        <xs:sequence>
+          <xs:element name="EstablishmentProfileDetail" type="tns:EstablishmentProfileDetail"/>
+          <xs:element name="EstablishmentLicenseDetail" type="tns:EstablishmentLicenseDetail"/>
+          <xs:element name="EstablishmentMemberDetail" type="tns:EstablishmentMemberDetail" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EstablishmentProfileDetail">
+    <xs:sequence>
+      <xs:element name="establishmentAddressDetail" type="tns:EstablishmentAddressDetail"/>
+    </xs:sequence>
+    <xs:attribute name="nameEnglish" type="xs:string" use="required"/>
+    <xs:attribute name="nameArabic" type="xs:string" use="required"/>
+    <xs:attribute name="registrationExpiryYears" type="xs:long" use="required"/>
+    <xs:attribute name="beneficiary" type="xs:boolean" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="EstablishmentAddressDetail">
+    <xs:sequence/>
+    <xs:attribute name="areaId" type="xs:long" use="required"/>
+    <xs:attribute name="cityId" type="xs:long" use="required"/>
+    <xs:attribute name="emirateId" type="xs:long" use="required"/>
+    <xs:attribute name="emiratesDepartmentId" type="xs:long" use="required"/>
+    <xs:attribute name="poBoxEmirateId" type="xs:long" use="required"/>
+    <xs:attribute name="poBoxNo" type="xs:string"/>
+    <xs:attribute name="flatNo" type="xs:string" use="required"/>
+    <xs:attribute name="faxNo" type="xs:string" use="required"/>
+    <xs:attribute name="street" type="xs:string" use="required"/>
+    <xs:attribute name="email" type="xs:string" use="required"/>
+    <xs:attribute name="mobileNo" type="xs:string" use="required"/>
+    <xs:attribute name="officeNo" type="xs:string" use="required"/>
+    <xs:attribute name="telephoneNo" type="xs:string" use="required"/>
+    <xs:attribute name="building" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="EstablishmentLicenseDetail">
+    <xs:sequence>
+      <xs:element name="LicenseActivity" type="xs:long" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="licenseTypeId" type="xs:long" use="required"/>
+    <xs:attribute name="licenseAuthorityId" type="xs:long" use="required"/>
+    <xs:attribute name="licenseNumber" type="xs:string" use="required"/>
+    <xs:attribute name="licenseIssueDate" type="xs:date"/>
+    <xs:attribute name="licenseExpiryDate" type="xs:date"/>
+  </xs:complexType>
+  <xs:complexType name="registerEstablishmentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="quotaWarrantyPaymentApplication">
+    <xs:sequence>
+      <xs:element name="quotaWarrantyPaymentApplicationRequest" type="tns:quotaWarrantyPaymentApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="quotaWarrantyPaymentApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="quotaWarrantyPaymentApplicationResponse">
+    <xs:sequence>
+      <xs:element name="status" type="xs:boolean" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reduceQuotaApplication">
+    <xs:sequence>
+      <xs:element name="reduceQuotaApplicationRequest" type="tns:reduceQuotaApplicationRequest" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reduceQuotaApplicationRequest">
+    <xs:complexContent>
+      <xs:extension base="tns:requestBase">
+        <xs:sequence>
+          <xs:element name="ReduceQuotaDetails" type="tns:reduceQuotaDetail" maxOccurs="unbounded"/>
+          <xs:element name="PaymentDetail" type="tns:PaymentDetail"/>
+        </xs:sequence>
+        <xs:attribute name="EstablishmentCode" type="xs:long" use="required"/>
+        <xs:attribute name="ApplicationNo" type="xs:long" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="reduceQuotaDetail">
+    <xs:sequence/>
+    <xs:attribute name="VisaType" type="xs:long" use="required"/>
+    <xs:attribute name="NoOfVisa" type="xs:long" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="reduceQuotaApplicationResponse">
+    <xs:sequence>
+      <xs:element name="applicationId" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

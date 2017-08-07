@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="event.xsd">
+  <headers>
+    <businessKey>0</businessKey>
+    <employeeLoginId>employeeLoginId</employeeLoginId>
+    <employeeNumber>0</employeeNumber>
+    <eventCreatedDate>eventCreatedDate</eventCreatedDate>
+    <eventCreatedTimeInNanos>0</eventCreatedTimeInNanos>
+    <eventId>eventId</eventId>
+    <eventType>eventType</eventType>
+    <rootIdentifier>0</rootIdentifier>
+    <sourceChannel>
+      <id>0</id>
+    </sourceChannel>
+    <systemInfoUserId>0</systemInfoUserId>
+    <version>0</version>
+  </headers>
+  <body>
+    <establishmentApplicationStatusEvent>
+      <applicationNo>0</applicationNo>
+      <comments>comments</comments>
+      <status>0</status>
+    </establishmentApplicationStatusEvent>
+  </body>
+</event>

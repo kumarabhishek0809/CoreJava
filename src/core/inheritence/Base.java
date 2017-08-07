@@ -12,4 +12,8 @@ public class Base  implements Cloneable {
 	public void myMethod() throws SQLException {
 
 	}
+	
+	public void print() {
+		System.out.println("Base:print");
+	}
 }
