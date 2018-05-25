@@ -1,74 +1,70 @@
 package core.threads;
+
 public class EvenOdd {
 
-	 int x = 0;
+    private int x = 0;
 
-	public synchronized void printEven() throws InterruptedException {
+    public static void main(String[] args) {
 
-			if (x % 2 == 0) {
-				Thread.sleep(1000);
-				System.out.println(Thread.currentThread().getName() + " " + x);
+        final EvenOdd evenOdd = new EvenOdd();
 
-				wait();
+        Thread t = new Thread(() -> {
 
-			}
-		++x;
-		notify();
-	}
+            while (true) {
+                try {
+                    evenOdd.printEven();
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
 
-	public synchronized void printOdd() throws InterruptedException {
+        }, "Even");
 
-			if (!(x % 2 == 0)) {
-				Thread.sleep(1000);
-				System.out.println(Thread.currentThread().getName() + " " + x);
+        t.start();
 
-				wait();
+        Thread t1 = new Thread(() -> {
 
-			}
-		++x;
-		notify();
+            while (true) {
+                try {
+                    evenOdd.printOdd();
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
 
-	}
+        }, "Odd");
 
-	public static void main(String[] args) {
+        t1.start();
 
-		final EvenOdd evenOdd = new EvenOdd();
-		final EvenOdd evenOdd1 = new EvenOdd();
+    }
 
-		Thread t = new Thread(new Runnable() {
+    private synchronized void printEven() throws InterruptedException {
 
-			public void run() {
-				while (true) {
-					try {
-						evenOdd.printEven();
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
+        if (x % 2 == 0) {
+            Thread.sleep(1000);
+            System.out.println(Thread.currentThread().getName() + " " + x);
 
-			}
-		},"Even");
+            wait();
 
-		t.start();
+        }
+        ++x;
+        notify();
+    }
 
-		Thread t1 = new Thread(new Runnable() {
+    private synchronized void printOdd() throws InterruptedException {
 
-			public void run() {
-				while (true) {
-					try {
-						evenOdd.printOdd();
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
+        if (!(x % 2 == 0)) {
+            Thread.sleep(1000);
+            System.out.println(Thread.currentThread().getName() + " " + x);
 
-			}
-		},"Odd");
+            wait();
 
-		t1.start();
+        }
+        ++x;
+        notify();
 
-	}
+    }
 
 }
