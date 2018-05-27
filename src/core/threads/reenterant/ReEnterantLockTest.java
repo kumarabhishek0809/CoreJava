@@ -1,29 +1,33 @@
-package core.threads;
+package core.threads.reenterant;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+class Worker {
+
+}
+
 public class ReEnterantLockTest {
 
-    private ReentrantLock lock = new ReentrantLock();
-    private int counter = 0;
+    private static ReentrantLock lock = new ReentrantLock();
+    private static int counter = 0;
 
-    private void counter(){
-        counter++;
-        System.out.println("Counter "+counter);
+       public static void counter() {
+           lock.lock();
+        for (int i = 0; i < 100000000; i++) {
+            counter++;
+        }
+        lock.unlock();
     }
 
     public static void main(String[] args) {
 
+        Worker worker = new Worker();
         Thread t1 = new Thread(() -> {
-            for (int i = 0; i < 5; i++) {
-                System.out.println("Thread 1" + i);
-            }
+            counter();
         });
 
         Thread t2 = new Thread(() -> {
-            for (int i = 0; i < 5; i++) {
-                System.out.println("Thread 2" + i);
-            }
+            counter();
         });
 
         t1.start();
@@ -34,6 +38,6 @@ public class ReEnterantLockTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Execution Finished");
+        System.out.println("Execution Finished  "+counter);
     }
 }
