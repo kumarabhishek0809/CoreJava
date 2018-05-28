@@ -1,4 +1,4 @@
-package core.threads;
+package core.threads.synchronize;
 
 public class ThreadSynchronize {
 	public static void main(String[] args) {
