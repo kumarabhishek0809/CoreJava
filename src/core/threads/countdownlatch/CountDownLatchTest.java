@@ -10,7 +10,6 @@ class Worker implements Callable<String> {
 
     private int id;
     private CountDownLatch countDownLatch;
-    private Random random ;
 
     public Worker(int id, CountDownLatch countDownLatch) {
         this.id = id;

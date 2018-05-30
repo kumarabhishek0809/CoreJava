@@ -1,4 +1,4 @@
-package core.collections.concurrent;
+package core.collections.nonconcurrent;
 
 import java.util.HashMap;
 
