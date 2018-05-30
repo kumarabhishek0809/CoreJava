@@ -1,4 +1,4 @@
-package core.collections.concurrent;
+package core.collections.concurrent.queue;
 
 import java.util.concurrent.*;
 
