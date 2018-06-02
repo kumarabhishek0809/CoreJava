@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7669fe38-0403-4b4b-b2e2-5ca48cd1b1dc" name="Default" comment="Updagraded to Intelij With Java 10">
+    <list default="true" id="7669fe38-0403-4b4b-b2e2-5ca48cd1b1dc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ConcurrentHashMapNullKeyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ConcurrentHashMapNullKeyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ConcurrentHashMapReaderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ConcurrentHashMapReaderWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/ReaderThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/WriterThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/collections/concurrent/WriterThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/domain/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapNullKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapNullKeyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapReaderWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/collections/concurrent/ExchangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/collections/concurrent/ExchangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/oops/concepts/InterfaceWithPrivateMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/InterfaceWithPrivateMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/diningphilosopher/ChopStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/diningphilosopher/ChopStick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/diningphilosopher/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/diningphilosopher/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/diningphilosopher/DinningPhilosper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/diningphilosopher/DinningPhilosper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/diningphilosopher/Philosper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/diningphilosopher/Philosper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/diningphilosopher/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/diningphilosopher/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/InterfaceWithPrivateMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/constructor/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/constructor/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/inheritence/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/inheritence/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/iterator/FailFastIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/collections/iterator/FailFastIteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/marker/ClonableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/marker/ClonableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/marker/SerializableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/marker/SerializableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/protectedtest/ProtectedCloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/ProtectedCloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/EvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ExecutorCompletionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ExecutorCompletionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/JoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadJoinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadSynchV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadSynchV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadYeildExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadYeildExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,76 +43,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Philosper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/diningphilosopher/Philosper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-              <folding>
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChopStick.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/diningphilosopher/ChopStick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DinningPhilosper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/diningphilosopher/DinningPhilosper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/diningphilosopher/State.java">
+      <file leaf-file-name="LibraryManagement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExchangerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/core/collections/concurrent/ExchangerTest.java">
+      <file leaf-file-name="InheritenceExceptionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="233">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/diningphilosopher/Constants.java">
+      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/inheritence/Base.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +123,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Kumar Abhishek &lt;kumar.abhishek0809@gmail.com&gt;Din" />
         <option value="Kumar Abhishek &lt;kumar.abhishek0809@gmail.com&gt;" />
       </list>
     </option>
@@ -211,6 +202,18 @@
         <option value="$PROJECT_DIR$/src/core/threads/diningphilosopher/Constants.java" />
         <option value="$PROJECT_DIR$/src/core/threads/diningphilosopher/State.java" />
         <option value="$PROJECT_DIR$/src/core/collections/concurrent/ExchangerTest.java" />
+        <option value="$PROJECT_DIR$/src/core/protectedtest/ProtectedCloneTest.java" />
+        <option value="$PROJECT_DIR$/src/core/concepts/object/methods/ProtectedCloneTest.java" />
+        <option value="$PROJECT_DIR$/src/core/oops/concepts/ProtectedCloneTest.java" />
+        <option value="$PROJECT_DIR$/src/core/oops/concepts/Color.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/core/EvenOdd.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/LibraryManagement.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/library/management/Constants.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/library/management/Student.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/library/management/Book.java" />
+        <option value="$PROJECT_DIR$/src/core/inheritence/Base.java" />
+        <option value="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" />
       </list>
     </option>
   </component>
@@ -263,24 +266,15 @@
               <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="ExchangerTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="inheritence" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritenceExceptionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
@@ -295,37 +289,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="diningphilosopher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,11 +312,15 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="core.threads.diningphilosopher" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="core.threads.core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/core/threads/cyclicbarrier" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="core.threads.library.management" />
+      <recent name="core.threads.diningphilosopher" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DinningPhilosper">
+  <component name="RunManager" selected="Application.LibraryManagement">
     <configuration name="ConcurrentHashMapNullKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.collections.concurrent.ConcurrentHashMapNullKeyTest" />
       <module name="CoreJava" />
@@ -412,13 +380,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collections.concurrent.queue.PriorityQueueTest" />
+    <configuration name="LibraryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.threads.library.management.LibraryManagement" />
       <module name="CoreJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.collections.concurrent.queue.*" />
+          <option name="PATTERN" value="core.threads.library.management.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -484,19 +452,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.gradle" />
-      <item itemvalue="Application.PriorityQueueTest" />
       <item itemvalue="Application.ConcurrentHashMapReaderWriter" />
       <item itemvalue="Application.ConcurrentHashMapNullKeyTest" />
       <item itemvalue="Application.ExchangerTest" />
       <item itemvalue="Application.DinningPhilosper" />
+      <item itemvalue="Application.LibraryManagement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryManagement" />
         <item itemvalue="Application.DinningPhilosper" />
         <item itemvalue="Application.ExchangerTest" />
         <item itemvalue="Application.ConcurrentHashMapNullKeyTest" />
         <item itemvalue="Application.ConcurrentHashMapReaderWriter" />
-        <item itemvalue="Application.PriorityQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +485,7 @@
       <workItem from="1527514348188" duration="9938000" />
       <workItem from="1527691135327" duration="5358000" />
       <workItem from="1527870362485" duration="10274000" />
-      <workItem from="1527923716924" duration="687000" />
+      <workItem from="1527923716924" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="Updagraded to Intelij With Java 10">
       <created>1527251568923</created>
@@ -540,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527705998865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dining Philosper Solution">
+      <created>1527924471922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527924471922</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41953000" />
+    <option name="totallyTimeSpent" value="45817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,19 +536,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.52478635" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960095" weight="0.52478635" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.61196584" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.6598291" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.6598291" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.41025642" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49960095" weight="0.6598291" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.41025642" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6632479" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24181964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25538707" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.52991456" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Gradle" order="7" />
@@ -633,79 +608,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updagraded to Intelij With Java 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updagraded to Intelij With Java 10" />
+    <MESSAGE value="Dining Philosper Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dining Philosper Solution" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/core/domain/DateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/domain/InnerVariablesInMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/ThreadYeildExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/JoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/ProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="357" column="14" selection-start-line="357" selection-start-column="14" selection-end-line="357" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/reenterant/condition/ReEnterantWithConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -720,17 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/ExecutorCompletionServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ExecutorCompletionServiceTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/ThreadSynchV2.java">
+    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ThreadSynchV2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-723">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/ThreadCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ThreadCounter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/threads/synchronize/ThreadSynchronize.java">
@@ -890,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapReaderWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/concurrent/Exchanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -911,13 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/EvenOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -974,10 +863,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/documents/EstablishmentApplicationService.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/collections/concurrent/ConcurrentHashMapReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/collections/concurrent/ExchangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/oops/concepts/ProtectedCloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/oops/concepts/constructor/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/inheritence/ArrayStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/core/EvenOdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/inheritence/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>

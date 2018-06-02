@@ -1,4 +1,4 @@
-package core.marker;
+package core.oops.concepts.marker;
 
 import java.io.Serializable;
 

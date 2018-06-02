@@ -15,7 +15,9 @@ class Child extends Base {
 	//Cannot Widen Exception public void myMethod() throws Exception {}
 	
 	@Override //Only new Runtime can be added.
-	public void myMethod() throws SQLException , ArithmeticException {}
+	public void myMethod() throws ArithmeticException {
+		//Cant Throw checked Exception SQLException ,
+	}
 	
 	//@Override
 	//No New checked not allowed

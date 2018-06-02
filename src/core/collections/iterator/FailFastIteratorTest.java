@@ -1,4 +1,4 @@
-package core.iterator;
+package core.collections.iterator;
 
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;

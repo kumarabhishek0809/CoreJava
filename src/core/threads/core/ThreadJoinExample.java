@@ -1,4 +1,4 @@
-package core.threads;
+package core.threads.core;
 public class ThreadJoinExample implements Runnable {
 
 	public void run() {

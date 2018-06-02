@@ -1,7 +1,7 @@
-package core.protectedtest;
+package core.oops.concepts;
 
 import core.inheritence.Base;
-import core.marker.ClonableTest;
+import core.oops.concepts.marker.ClonableTest;
 
 public class ProtectedCloneTest {
 	
@@ -10,7 +10,7 @@ public class ProtectedCloneTest {
 		clonableTest.main(null);
 		
 		Base base = new Base();
-		// Cannot Call from here base.clone();
+		//base.clone();
 	}
 
 
