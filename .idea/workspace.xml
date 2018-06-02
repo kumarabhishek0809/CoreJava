@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7669fe38-0403-4b4b-b2e2-5ca48cd1b1dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/threads/library/management/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/parallel/sorting/ParallelMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/sequential/ParralleSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/threads/sequential/SequentialSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/InterfaceWithPrivateMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/constructor/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/constructor/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/inheritence/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/inheritence/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/iterator/FailFastIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/collections/iterator/FailFastIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/marker/ClonableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/marker/ClonableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/marker/SerializableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/marker/SerializableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/protectedtest/ProtectedCloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/oops/concepts/ProtectedCloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/EvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ExecutorCompletionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ExecutorCompletionServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/JoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadJoinExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadSynchV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadSynchV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/ThreadYeildExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/core/ThreadYeildExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/CoreJava/core/inheritence/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/CoreJava/core/inheritence/Child.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LibraryManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java">
+      <file leaf-file-name="ParallelMergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/parallel/sorting/ParallelMergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequentialSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/sequential/SequentialSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,48 +51,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InheritenceExceptionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java">
+      <file leaf-file-name="ParralleSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/threads/sequential/ParralleSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/inheritence/Base.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="142">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Book.java">
+      <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/stream/IntStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="1017" column="43" lean-forward="true" selection-start-line="1017" selection-start-column="37" selection-end-line="1017" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntSupplier.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/function/IntSupplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -166,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/core/threads/EvenOdd.java" />
         <option value="$PROJECT_DIR$/src/core/threads/JoinTest.java" />
         <option value="$PROJECT_DIR$/src/core/threads/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/src/core/threads/ReenterantLockTest.java" />
@@ -214,6 +193,11 @@
         <option value="$PROJECT_DIR$/src/core/threads/library/management/Book.java" />
         <option value="$PROJECT_DIR$/src/core/inheritence/Base.java" />
         <option value="$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/core/ParallelMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/parallel/sorting/ParallelMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/core/SequentialSum.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/sequential/SequentialSum.java" />
+        <option value="$PROJECT_DIR$/src/core/threads/sequential/ParralleSum.java" />
       </list>
     </option>
   </component>
@@ -227,10 +211,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="47" />
-    <option name="width" value="1279" />
-    <option name="height" value="701" />
+    <option name="x" value="67" />
+    <option name="y" value="62" />
+    <option name="width" value="1161" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -242,7 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,21 +251,6 @@
               <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritence" type="462c0819:PsiDirectoryNode" />
-              <item name="InheritenceExceptionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,14 +259,69 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoreJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="sequential" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,15 +337,18 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.threads.sequential" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="core.threads.core" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/core/threads/cyclicbarrier" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="core.threads.library.management" />
       <recent name="core.threads.diningphilosopher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/core/threads/cyclicbarrier" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,29 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LibraryManagement">
-    <configuration name="ConcurrentHashMapNullKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collections.concurrent.ConcurrentHashMapNullKeyTest" />
-      <module name="CoreJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.collections.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ConcurrentHashMapReaderWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collections.concurrent.ConcurrentHashMapReaderWriter" />
-      <module name="CoreJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.collections.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.ParralleSum">
     <configuration name="DinningPhilosper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.threads.diningphilosopher.DinningPhilosper" />
       <module name="CoreJava" />
@@ -369,17 +375,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collections.concurrent.ExchangerTest" />
-      <module name="CoreJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.collections.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="LibraryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.threads.library.management.LibraryManagement" />
       <module name="CoreJava" />
@@ -387,6 +382,39 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core.threads.library.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ParallelMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.threads.parallel.sorting.ParallelMergeSort" />
+      <module name="CoreJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.threads.parallel.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ParralleSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.threads.sequential.ParralleSum" />
+      <module name="CoreJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.threads.sequential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SequentialSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.threads.sequential.SequentialSum" />
+      <module name="CoreJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.threads.sequential.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,19 +480,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.gradle" />
-      <item itemvalue="Application.ConcurrentHashMapReaderWriter" />
-      <item itemvalue="Application.ConcurrentHashMapNullKeyTest" />
-      <item itemvalue="Application.ExchangerTest" />
       <item itemvalue="Application.DinningPhilosper" />
       <item itemvalue="Application.LibraryManagement" />
+      <item itemvalue="Application.ParallelMergeSort" />
+      <item itemvalue="Application.SequentialSum" />
+      <item itemvalue="Application.ParralleSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParralleSum" />
+        <item itemvalue="Application.SequentialSum" />
+        <item itemvalue="Application.ParallelMergeSort" />
         <item itemvalue="Application.LibraryManagement" />
         <item itemvalue="Application.DinningPhilosper" />
-        <item itemvalue="Application.ExchangerTest" />
-        <item itemvalue="Application.ConcurrentHashMapNullKeyTest" />
-        <item itemvalue="Application.ConcurrentHashMapReaderWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +513,8 @@
       <workItem from="1527514348188" duration="9938000" />
       <workItem from="1527691135327" duration="5358000" />
       <workItem from="1527870362485" duration="10274000" />
-      <workItem from="1527923716924" duration="4551000" />
+      <workItem from="1527923716924" duration="4958000" />
+      <workItem from="1527958297187" duration="4527000" />
     </task>
     <task id="LOCAL-00001" summary="Updagraded to Intelij With Java 10">
       <created>1527251568923</created>
@@ -515,11 +544,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527924471922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Student Library Simulation">
+      <created>1527932753616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527932753616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Student Library Simulation">
+      <created>1527932776054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527932776054</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45817000" />
+    <option name="totallyTimeSpent" value="50751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,12 +586,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.6598291" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49960095" weight="0.6598291" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.41025642" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49960095" weight="0.7982906" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.41025642" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6632479" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25538707" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29209897" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.52991456" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Gradle" order="7" />
@@ -567,14 +610,13 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960895" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.52991456" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.41025642" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960895" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6649573" />
@@ -596,6 +638,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
@@ -607,38 +650,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Updagraded to Intelij With Java 10" />
     <MESSAGE value="Dining Philosper Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dining Philosper Solution" />
+    <MESSAGE value="Student Library Simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Library Simulation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/semaphores/SemaphoresTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ExecutorCompletionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ThreadSynchV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-723">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/core/ThreadCounter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/threads/synchronize/ThreadSynchronize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -664,20 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6120">
           <caret line="446" column="19" selection-start-line="446" selection-start-column="19" selection-end-line="446" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/countdownlatch/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/threads/cyclicbarrier/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -821,9 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,11 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-          <folding>
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="465">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -929,22 +920,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="300">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/threads/library/management/LibraryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,15 +940,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/inheritence/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/inheritence/InheritenceExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="270">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/countdownlatch/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/cyclicbarrier/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1017" column="43" lean-forward="true" selection-start-line="1017" selection-start-column="37" selection-end-line="1017" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/function/IntSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/parallel/sorting/ParallelMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/sequential/SequentialSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/threads/sequential/ParralleSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
