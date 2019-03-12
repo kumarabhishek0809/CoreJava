@@ -28,7 +28,7 @@ public class ExecutorCompletionServiceTest {
 			ViolationDetails violationDetails;
 			try {
 				violationDetails = completionService.take().get();
-				System.out.println(" -> "+violationDetails.getEstablishmentID() + "    " + violationDetails.getViolation());
+				System.out.println(" -> "+violationDetails.getTransactionID() + "    " + violationDetails.getViolation());
 			} catch (InterruptedException | ExecutionException e) {
 				e.printStackTrace();
 			}
@@ -50,26 +50,26 @@ class ViolationWorker implements Callable<ViolationDetails>{
 	public ViolationDetails call() throws Exception {
 		Thread.sleep(10001);
 		violationDetails.setViolation(System.currentTimeMillis());
-		System.out.println(violationDetails.getEstablishmentID() + "    " + violationDetails.getViolation());
+		System.out.println(violationDetails.getTransactionID() + "    " + violationDetails.getViolation());
 		return violationDetails;
 	}
 	 
  }
 
 class ViolationDetails {
-	private long establishmentID;
+	private long transactionID;
 	private long violation;
 
 	
-	public ViolationDetails(long establishmentID){
-		this.establishmentID = establishmentID;
+	public ViolationDetails(long transactionID){
+		this.transactionID = transactionID;
 	}
 	
-	public long getEstablishmentID() {
-		return establishmentID;
+	public long getTransactionID() {
+		return transactionID;
 	}
-	public void setEstablishmentID(long establishmentID) {
-		this.establishmentID = establishmentID;
+	public void setTransactionID(long transactionID) {
+		this.transactionID = transactionID;
 	}
 	public long getViolation() {
 		return violation;
