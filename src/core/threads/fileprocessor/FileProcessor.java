@@ -5,15 +5,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
-import java.util.concurrent.CompletionService;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class FileProcessor {
 	public static void main(String[] args) throws FileNotFoundException, IOException, InterruptedException, ExecutionException {
@@ -26,7 +24,7 @@ public class FileProcessor {
 			Split split = new Split();
 			List<String> splitFiles = Split.splitFiles(source, output);
 			List<Callable<Boolean>> readers = new ArrayList<Callable<Boolean>>();
-			ConcurrentHashMap<String, Integer> sharedMap = new ConcurrentHashMap<String, Integer>();
+			ConcurrentHashMap<String, AtomicInteger> sharedMap = new ConcurrentHashMap<String, AtomicInteger>();
 			int availableProcessors = Runtime.getRuntime().availableProcessors();
 			WORKER_THREAD_POOL = Executors.newFixedThreadPool(availableProcessors);
 
