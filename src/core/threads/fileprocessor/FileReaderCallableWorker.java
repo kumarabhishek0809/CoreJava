@@ -4,16 +4,17 @@ import java.io.File;
 import java.nio.file.Files;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 public class FileReaderCallableWorker<Boolean> implements Callable<Boolean> {
 
-	private ConcurrentHashMap<String, Integer> sharedMap;
+	private ConcurrentHashMap<String, AtomicInteger> sharedMap;
 	private String filePath;
 	private String REGEX = ",";
 
-	public FileReaderCallableWorker(ConcurrentHashMap<String, Integer> sharedMap, String filePath) {
+	public FileReaderCallableWorker(ConcurrentHashMap<String, AtomicInteger> sharedMap, String filePath) {
 		System.out.println("Inside Constructor " + filePath);
 		this.sharedMap = sharedMap;
 		this.filePath = filePath;
@@ -28,11 +29,10 @@ public class FileReaderCallableWorker<Boolean> implements Callable<Boolean> {
 				Pattern pattern = Pattern.compile(REGEX);
 				String[] result = pattern.split((CharSequence) line);
 				for (String data : result) {
-					//sharedMap.computeIfAbsent(data, mappingFunction)
-					if (sharedMap.contains(data)) {
-						sharedMap.put(data, sharedMap.get(data) + 1);
+					if (sharedMap.get(data) != null) {
+						sharedMap.put(data, new AtomicInteger(sharedMap.get(data).get() + 1));
 					} else {
-						sharedMap.put(data, 1);
+						sharedMap.put(data, new AtomicInteger(1));
 					}
 				}
 			});

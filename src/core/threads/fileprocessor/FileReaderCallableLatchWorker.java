@@ -11,12 +11,12 @@ import java.util.stream.Stream;
 
 public class FileReaderCallableLatchWorker<Boolean> implements Callable<Boolean> {
 
-	private ConcurrentHashMap<String, AtomicInteger> sharedMap;
+	private ConcurrentHashMap<String, Integer> sharedMap;
 	private String filePath;
 	private String REGEX = ",";
 	private CountDownLatch latch;
 
-	public FileReaderCallableLatchWorker(ConcurrentHashMap<String, AtomicInteger> sharedMap, String filePath, CountDownLatch latch) {
+	public FileReaderCallableLatchWorker(ConcurrentHashMap<String, Integer> sharedMap, String filePath, CountDownLatch latch) {
 		System.out.println("Inside Constructor " + filePath);
 		this.sharedMap = sharedMap;
 		this.filePath = filePath;
@@ -32,9 +32,12 @@ public class FileReaderCallableLatchWorker<Boolean> implements Callable<Boolean>
 				Pattern pattern = Pattern.compile(REGEX);
 				String[] result = pattern.split((CharSequence) line);
 				for (String data : result) {
-					sharedMap.computeIfAbsent(data, k -> new AtomicInteger(1));
+					sharedMap.computeIfAbsent(data, k -> 1);
 					sharedMap.computeIfPresent(data, (k, value) -> {
-			            return  new AtomicInteger(sharedMap.get(data).get()+1); 
+			            return  sharedMap.get(data)+1; 
+//					sharedMap.computeIfAbsent(data, k -> new AtomicInteger(1));
+//					sharedMap.computeIfPresent(data, (k, value) -> {
+//			            return  new AtomicInteger(sharedMap.get(data).get()+1); 
 			        });
 					/*
 					if (sharedMap.get(data) != null ) {

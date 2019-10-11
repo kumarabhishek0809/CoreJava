@@ -4,3 +4,7 @@
 /build/
 /gradle/wrapper/
 /src/threads/fileprocessor/*.log
+/.classpath
+/.project
+/.settings
+/src/core/threads/fileprocessor/server.*
