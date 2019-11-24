@@ -16,7 +16,7 @@ class Producer implements Callable<Integer> {
             blockingQueue.put(counter);
             //blockingQueue.offer(counter);
             counter++;
-            System.out.println("Inside Producer "+counter);
+            System.out.println("Inside Producer "+counter);   //test
         }
     }
 }
