@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7669fe38-0403-4b4b-b2e2-5ca48cd1b1dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/ReactiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/oops/concepts/InheritenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileReaderCallableLatchWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileReaderCallableLatchWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileReaderCallableWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/threads/fileprocessor/FileReaderCallableWorker.java" afterDir="false" />
-    </list>
+    <list default="true" id="7669fe38-0403-4b4b-b2e2-5ca48cd1b1dc" name="Default" comment="Ignore Not Used" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CoreJava$CyclicBarrierTest.ic" NAME="CyclicBarrierTest Coverage Results" MODIFIED="1527531734258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -358,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552395389189</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ignore Not Used">
+      <created>1574621180396</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574621180396</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -372,6 +372,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
