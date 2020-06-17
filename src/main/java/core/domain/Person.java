@@ -4,23 +4,29 @@ package core.domain;
 public class Person implements Comparable<Person> {
 
     private int age;
-    private String name;
+    private String firstName;
+    private String lastName;
 
     public Person(String name, int age) {
-        this.name = name;
+        this.firstName = name;
         this.age = age;
     }
 
     Person(int age, String name) {
         this.age = age;
-        this.name = name;
+        this.firstName = name;
+    }
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     @Override
     public String toString() {
         return "Person{" +
                 "age=" + age +
-                ", name='" + name + '\'' +
+                ", name='" + firstName + '\'' +
                 '}';
     }
 
@@ -32,12 +38,12 @@ public class Person implements Comparable<Person> {
         this.age = age;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     @Override
@@ -47,5 +53,13 @@ public class Person implements Comparable<Person> {
             returnValue = this.getAge() > o.getAge() ? 1 : -1;
         }
         return returnValue;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }

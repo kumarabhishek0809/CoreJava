@@ -1,4 +1,4 @@
-package core;
+package core.java8.features.stream;
 
 public class ReactiveTest {
 	private void psvm() {
