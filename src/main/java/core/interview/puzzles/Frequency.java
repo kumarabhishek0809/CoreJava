@@ -1,4 +1,4 @@
-package core.enbd;
+package core.interview.puzzles;
 
 public class Frequency {
 

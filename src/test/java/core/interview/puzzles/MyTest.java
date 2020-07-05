@@ -1,4 +1,4 @@
-package core.enbd;
+package core.interview.puzzles;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;

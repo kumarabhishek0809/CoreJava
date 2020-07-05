@@ -1,7 +1,7 @@
 package core.junit5.examples;
 
 import core.domain.Person;
-import core.enbd.Calculator;
+import core.interview.puzzles.Calculator;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.CountDownLatch;
