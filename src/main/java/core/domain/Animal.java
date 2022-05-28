@@ -5,32 +5,28 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Animal {
-	
+
 	private String name;
 	private static List<Animal> animals = new ArrayList<Animal>();
-private AtomicInteger a;
+	private AtomicInteger a;
 
-
-	public Animal(String name){
+	public Animal(String name) {
 		this.setName(name);
 	}
 
 	public static void main(String[] args) {
-		
-		
-		 
-		
-		for(int i =0; i<5; i++){
-			animals.add(new Animal("Test"+i));
+
+		for (int i = 0; i < 5; i++) {
+			animals.add(new Animal("Test" + i));
 		}
-		
+
 		Animal mainAnimal = new Animal("main");
 		mainAnimal.setAnimals(animals);
-		
-		for(Animal animal : mainAnimal.getAnimals()){
+
+		for (Animal animal : mainAnimal.getAnimals()) {
 			System.out.println(animal.getName());
 		}
-		
+
 	}
 
 	public static List<Animal> getAnimals() {
