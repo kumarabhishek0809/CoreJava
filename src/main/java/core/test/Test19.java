@@ -1,4 +1,4 @@
-package core;
+package core.test;
 
 public class Test19 {
 	public static void main(String[] args) {

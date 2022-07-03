@@ -9,6 +9,6 @@ public class TypeInferencesRunner {
         List<String> names2 = List.of("RANGA1","RAVI2");
 
         List<List<String>> name = List.of(names1,names2);
-        var names = List.of(names1,names2);
+
     }
 }

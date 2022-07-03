@@ -11,6 +11,11 @@ import lombok.Data;
 public class Employee {
 	private int id;
 	private String name;
+
+	public String getDepartment() {
+		return department;
+	}
+
 	private String department;
 	private long salary;
 
@@ -22,5 +27,6 @@ public class Employee {
 		employees.add(Employee.builder().id(104).name("Kumar3").department("ENBD3").salary(1000003).build());
 		return employees;
 	}
+
 
 }
