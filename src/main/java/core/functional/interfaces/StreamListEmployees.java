@@ -3,9 +3,7 @@ package core.functional.interfaces;
 import core.domain.Employee;
 import org.w3c.dom.ls.LSOutput;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -18,6 +16,15 @@ public class StreamListEmployees {
     }
 
     public static void main(String[] args) {
+
+        Optional<Employee> salary2 = Employee.getEmployees().stream().sorted((e1, e2) -> e1.getSalary() - e2.getSalary()).skip(2 - 1).findFirst();
+        System.out.println(salary2);
+
+
+        Optional<Employee> secondHighestSalary = Employee.getEmployees().stream().sorted(Comparator.comparingInt(Employee::getSalary).reversed()).skip(2 - 1).findFirst();
+        System.out.println(secondHighestSalary.get());
+
+
         Stream<Employee> es = Employee.getEmployees().stream();
         Stream<List<Employee>> employeesStream = Stream.of(Employee.getEmployees());
         Map<String, Long> collect = es.collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
