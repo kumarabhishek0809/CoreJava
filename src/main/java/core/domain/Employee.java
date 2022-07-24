@@ -1,7 +1,6 @@
 package core.domain;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import lombok.Builder;
@@ -12,7 +11,7 @@ import lombok.Data;
 public class Employee {
 	private int id;
 	private String name;
-private Customer customer;
+
 	public String getDepartment() {
 		return department;
 	}
@@ -29,8 +28,7 @@ private Customer customer;
 		employees.add(Employee.builder().id(105).name("Kumar4").department("ENBD4").salary(1000004).build());
 		employees.add(Employee.builder().id(106).name("Kumar5").department("ENBD5").salary(1000005).build());
 		employees.add(Employee.builder().id(107).name("Kumar6").department("ENBD6").salary(1000006).build());
-		employees.add(Employee.builder().id(108).name("Kumar7").department("ENBD7").salary(1000007)
-				.build());
+		employees.add(Employee.builder().id(108).name("Kumar7").department("ENBD7").salary(1000007).build());
 		return employees;
 	}
 
