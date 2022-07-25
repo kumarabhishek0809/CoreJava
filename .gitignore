@@ -8,3 +8,4 @@
 /.project
 /.settings
 /src/core/threads/fileprocessor/server.*
+*.iml
